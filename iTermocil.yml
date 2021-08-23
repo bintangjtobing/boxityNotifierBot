@@ -1,0 +1,7 @@
+windows:
+  - name: Telegram Bot
+    root: ~/Volumes/StorageY/GitHub/boxity-app/
+    layout: even-horizontal
+    panes:
+      - cd ../../Volumes/StorageY/GitHub/boxityNotifierBot
+      - cd ../../Volumes/StorageY/GitHub/telegram-bot

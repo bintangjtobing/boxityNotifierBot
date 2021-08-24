@@ -1,5 +1,5 @@
 require 'telegram_bot'
-token = '1968855714:AAEOhVqRUTgLJ4JdQ2ZBoSao43dQTVHF1fE'
+token = '1968855714:AAGnUzAVyRhbu8uJEVJ6F48D37gCXGbfv5A'
 bot = TelegramBot.new(token: token)
 
 bot.get_updates(fail_silently: true) do |message|

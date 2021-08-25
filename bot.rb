@@ -15,7 +15,7 @@ bot.get_updates(fail_silently: true) do |message|
     when /getid/i
       reply.text = "This is your telegram id: #{message.from.id}"
     when 'Thank you' || 'makasih' || 'terima kasih' || 'Terima kasih'
-      reply.text = "You're welcome"
+      reply.text = "You're welcome, #{message.from.first_name} 😁. Hope you always fine today!"
     else
       reply.text = "I have no idea what #{command.inspect} means."
     end

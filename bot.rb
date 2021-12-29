@@ -1,4 +1,4 @@
-require 'telegram_bot'
+require 'telegram-bot'
 token = '1968855714:AAGnUzAVyRhbu8uJEVJ6F48D37gCXGbfv5A'
 bot = TelegramBot.new(token: token)
 

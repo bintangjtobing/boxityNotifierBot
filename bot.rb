@@ -14,6 +14,8 @@ bot.get_updates(fail_silently: true) do |message|
       reply.text = "All I can do is say hello. Try the /hello command."
     when /getid/i
       reply.text = "This is your telegram id: #{message.from.id}"
+    when /PING/i
+      reply.text = "Hello, #{message.from.first_name}. Telegram connection is fully worked. You can use this connection as our notification from our system. Thank you, have a great day!"
     when 'Thank you' || 'makasih' || 'terima kasih' || 'Terima kasih'
       reply.text = "You're welcome, #{message.from.first_name} 😁. Hope you always fine today!"
     else
